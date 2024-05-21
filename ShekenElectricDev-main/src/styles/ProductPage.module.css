@@ -1,0 +1,243 @@
+.productSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    
+}
+
+.backLink {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: right;
+    padding-right: 1em;
+    
+}
+
+.backLinkIcon {
+    margin-right: .5em;
+    padding-top: .2em;
+}
+
+.productCont {
+    margin: .5em 3em;
+    text-align: right;
+    width: 40%;
+}
+
+.productTitle {
+    font-size: 3em;
+}
+
+.productDesc {
+    font-size: 1.3em;
+}
+.priceContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.maham {
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+.productPrice {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #4E9F3D;
+}
+
+.productImgs {
+    width: 50%;
+    text-align: ce;
+}
+
+.mainImage {
+    margin: 0.5em;
+   
+}
+
+.ctaContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+.ctaLink {
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: .5em 1em;
+    border: solid 3px #4E9F3D;
+    border-radius: .7em;
+    margin: 1em .1em;
+
+}
+
+.ctaLink:hover {
+    color: #fff;
+    background-color: #4E9F3D;
+}
+
+.ctaLink2 {
+    cursor: pointer;
+    background-color: #4E9F3D;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: .5em 2em;
+    border-radius: .7em;
+    border: solid 3px #4E9F3D;
+    margin: 1em .1em; 
+}
+
+.ctaLink2:hover {
+    color: #fff;
+}
+
+.imagesConatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tinyImagesCont {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.mainImageCont {
+    text-align: center;
+    margin: auto;
+}
+
+
+.tinyImage {
+     margin: 0.5em;
+}
+
+
+.shippings {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shippingCont {
+    background-color: #e7e7e7;
+    padding: 1em ;
+    border-radius: 1em;
+}
+
+.shipIcon {
+    font-size: 2.5em;
+    
+}
+
+.shipText {
+    padding-right: 2em;
+    font-weight: 600;
+}
+
+.mobileSlideCont {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mobileSlideArrowCont {
+    justify-items: center ;
+    margin: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 902px) {
+
+    .mainImage {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ctaLink {
+        font-size: 1em;
+        padding: .5em .7em;
+    }
+
+   
+    .ctaLink2 {
+        font-size: 1em;
+        padding: .5em 1em;
+    }
+
+    .shippings {
+        flex-direction: column;
+        justify-content: right;
+    }
+
+    .shippingCont { 
+        margin: 1em;
+    }
+
+    .shipText {
+        padding-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .imagesConatiner {        
+        flex-direction: column;
+    }
+
+    .tinyImagesCont {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .productSec {
+       flex-direction: column;
+       align-items: center;
+       
+    }
+
+    .productImgs {
+        width: 100%;
+        align-content: right;
+    }
+
+    .mainImage {
+        display: flex;
+        justify-content: center;
+    }
+    .productCont {
+        width: 60%;
+        margin: auto;
+        text-align: right;
+        
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .productCont {
+        width: 90%;
+        margin: auto;
+        text-align: right;
+        
+    }
+}

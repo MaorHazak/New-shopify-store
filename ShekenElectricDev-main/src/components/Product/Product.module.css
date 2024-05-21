@@ -1,0 +1,41 @@
+.container {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    max-width: 600px;
+  }
+  
+  .product {
+    margin:  1em 1em;
+    text-align: right;
+  }
+  
+  
+  
+  .title {
+    font-size: 1.5em;
+    max-width: 15em;
+    
+    
+  }
+
+  .price {
+    
+    font-size: 1.2em;
+  }
+
+  .ctaContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  .ctaLink {
+    margin-left: .5em;
+    background-color: #5ca34e;
+    padding: .75em 1.5em;
+    font-size: .8em;
+    font-weight: 600;
+    border-radius: 1em;
+    cursor: pointer;
+  }

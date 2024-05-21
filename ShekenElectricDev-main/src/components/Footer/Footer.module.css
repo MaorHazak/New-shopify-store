@@ -1,0 +1,80 @@
+.footer {
+    color: white;
+    background-image: linear-gradient(#293029, #272b27, #1e201e, #191A19);
+    padding-top: 1em;
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+.footDiv {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo {
+    color: #4E9F3D;
+    margin: .5em;
+} 
+
+.row {
+    text-align: center;
+    margin-bottom: -1em;
+    padding-bottom: .5em;
+}
+
+.socialTitle {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* support section here*/
+
+.supportCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.LinksCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em 2em;
+    width: 80%;
+    overflow: hidden;
+}
+
+.supLinks {
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: underline #4E9F3D;
+    cursor: pointer;
+}
+
+.SupContainer {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.SupIcon {
+    margin: auto;
+    font-size: 2.5em;
+    color: #4E9F3D;
+}
+
+
+@media screen and (max-width: 902px) {
+    .LinksCont {
+        display: flex;
+        flex-direction: column;
+        
+        
+       
+    }
+}

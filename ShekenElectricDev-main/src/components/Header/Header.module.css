@@ -1,0 +1,50 @@
+
+.imagecontainer {
+    width: 2em;
+}
+
+.sectionContainer {
+   
+    margin-top: -2em;
+    overflow: hidden;
+    height: 30em;
+    
+}
+
+.headerConatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTitle {
+    color: #fff;
+    font-size: 5em;
+}
+
+.headerDesc {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 400;
+    
+}
+
+
+
+@media screen and (max-width: 555px) { 
+    .headerTitle {
+        
+        font-size: 3em;
+    }
+
+    .headerDesc {
+    
+        font-size: 1em;
+    }
+
+    .sectionContainer { 
+        height: 20em;
+    }
+    
+}
+
+
